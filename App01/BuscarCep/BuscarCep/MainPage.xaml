@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BuscarCep"
+             x:Class="BuscarCep.MainPage">
+
+    <StackLayout BackgroundColor="#FFBF00" Padding="30" Spacing="30">
+
+        <Image Source="LogoCorreios.png" />
+        <Entry x:Name="txtCEP" BackgroundColor="#FFFFFF" Placeholder="Digite o CEP" PlaceholderColor="#FFBF00" />
+        <Button x:Name="btnBuscarCep" Text="BUSCAR CEP" BackgroundColor="#00416B" TextColor="#FFFFFF"/>
+          <!-- Place new controls here -->
+        <Label x:Name="lblResultado" Text="" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</ContentPage>
